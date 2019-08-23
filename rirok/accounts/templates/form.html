@@ -1,0 +1,24 @@
+{% load widget_tweaks %}
+{% for hidden in form.hidden_fields %}
+    {{ hidden }}
+{% endfor %}
+
+{% for field in form.visible_fields %}
+<div class="form-group">
+    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+    {{ field|add_class:"form-control" }}
+    {% for error in field.errors %}
+        <span class="help-block">{{ error }}</span>
+    {% endfor %}
+    {% if fields.help_text %}
+    <small class="form-text text-muted">{{ field.help_text|safe }}</small>
+    {% endif %}
+    {% if form.non_fields_errors %}
+    <div class="alert alert-danger" role="alert">
+        {% for error in forms.non_fields_errors %}
+        <p {% if forloop.last %} class="mb-0" {% endif %}>{{ error }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endfor %}

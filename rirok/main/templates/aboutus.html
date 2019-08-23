@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+   
+    <div class="container">
+            <h1 class="title"> 
+                    About Rirok Technologies
+                </h1>
+        <div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Rirok Technologies helps companies simplify their toughest IT challenges. 
+                    We leverage deep expertise and broad industry experience to deliver pragmatic business solutions that fuel tomorrow’s innovation. 
+                    Embrace digital transformation with an award-winning technology partner like Rirok Tech by your side.</p>
+                    <br>
+                <p class="lead"> 
+                    We have a proven track record of helping companies simplify their toughest IT challenges and embrace digital transformation. 
+                    Our expertise and broad industry experience enable us to marry pragmatic business solutions with the technical know-how that fuels tomorrow’s innovation.
+                </p>
+                <br>
+                <p class="lead">The company’s technology expertise and customer-focused service approach are consistently recognized by industry associations and partners.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2" style="top: 80%;">
+                <a href="{% url 'home' %}"><button btn btn-outline-secondary btn-lg>Home</button></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+{% endblock %}

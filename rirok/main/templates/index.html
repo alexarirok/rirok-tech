@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
+            <li data-target="#slides" data-slide-to="4"></li>
+
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{% static 'images/bc.jpg' %}" style="width:400px; height:400px;" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">RirokTech</h1>
+                    <h3>Welcome to Rirok Technologies</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Welcome</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/computers.png' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/cloud2.jpeg' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/cloud3.jpg' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/cloud6.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Rirok Technologies helps companies simplify their toughest IT challenges. 
+                    We leverage deep expertise and broad industry experience to deliver pragmatic business solutions that fuel tomorrow’s innovation. 
+                    Embrace digital transformation with an award-winning technology partner like Rirok Tech by your side.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href=""><button btn btn-outline-secondary btn-lg>Supply</button></a>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Works with passion</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">We get better with every customer we deal with. We grow by satisfying your needs. 
+                    We welcome you to be a part of our proud family where every customer is a king!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/dcc.png' %}">
+                <h3>Data Center Services</h3>
+                <p>Our iFortress data center solution is a green, energy-efficient modular data center 
+                    that is assembled in the field and easily scales to any size, giving you maximum flexibility.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/vr.png' %}">
+                <h3>3D Print & VR</h3>
+                <p>Implement the latest innovations, like Virtual Reality/Augmented Reality (VR/AR), 3D Printing, and Artificial Intelligence (AI).</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/sto.png' %}">
+                <h3>Storage Solutions</h3>
+                <p>Rirok Tech helps solve data storage challenges, and varied business requirements, with advanced modular data centers, hybrid cloud, and hyper-converged solutions.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/ci.png' %}">
+                <h3>Configuration and Imaging</h3>
+                <p>Customized hardware, software and server configurations, as well as network builds and image management/deployment, ensure that your business has the right technologies.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/ss.png' %}">
+                <h3>Security Solutions</h3>
+                <p>Our solutions and technical expertise help uncover the security risks present in your infrastructure. Learn how we assess, plan and implement the right technologies to protect your environment.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-2 col-lg-4">
+                <img src="{% static 'images/ps.png' %}">
+                <h3>Procurement Services</h3>
+                <p>With access to 500+ manufacturers’ solutions, we have the right technologies to meet your unique needs and the expertise to configure them to your specifications.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-5">
+                <h2>Our Approach</h2>
+                <p>Honesty, integrity, teamwork and dedication—these are the words and principles that Rirok Technologies Enterprise, Inc. 
+                    has built its reputation on since it's inception in Aug 2019.</p>
+                <p>We know that companies are looking for partners that will go the extra mile…not because they have to, but because they want to. I am proud to say that Rirok Tech is one such company.</p>
+                <P>With our technical expertise and customer-focused service approach, we understand our clients’ business goals and unique challenges. We deliver scalable solutions that maximize their productivity and anticipate how their needs will evolve tomorrow.</P>
+                <br>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-lg-6">
+                <img src="{% static 'images/work.png' %}" class="img-fluid" >
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed" style="background-image: url(images/c.jpeg)">
+            </div>
+        </div>
+    </figure>
+    <!-- Gallery Section -->
+    <button class="fun" data-toggle="collapse" data-target="emoji">Click To see more</button>
+    <div class="collapse" id="emoji">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End gallery-->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet the Team</h1>
+            </div>
+            <hr class="my-4">
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{% static 'images/team1.jpg' %}" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Alex Korir</h4>
+                        <p class="card-text">
+                        Alex started Rirok Tech in his basement in 2019.  Since then, he has transformed the company from a hardware reseller, start-up, into a full-service IT solutions provider with average annual revenues exceeding 200 million. With over 10 years experience in the IT industry, Alex worked for Quadrant Softwares and FAO before embarking on the entrepreneurial journey that has become Rirok Tech.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{% static 'images/team2.jpg' %}" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Alfred Korir</h4>
+                        <p class="card-text">
+                            Alfred joined Rirok Tech Enterprise, Inc. in June of 2003. With over 15 years of Sales and Marketing experience, Chris has held positions with IBM Corp., Thomson Corp., and Kraft Foods. His role at Future Tech involves the development of strategic partnerships that focus on the growth and management of our Federal business.<a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{% static 'images/team3.jpg' %}" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-tittle">Allan Korir</h4>
+                        <p class="card-text">
+                            Allan joined Rirok Tech Enterprise, Inc in August of 2017. Donna is responsible for leading our sales and marketing teams. With over 20 years of IT sales and management experience Donna has come to Future Tech from her most recent role as National Account Manager for Dell EMC
+                            <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-12 col-lg-5">
+                    <h2>Commitment to Community</h2>
+                    <p>     
+                        Rirok Tech adamantly believes in giving back to the community. That means working locally and globally to help organizations that research cures for terminal diseases and funding educational institutions that give underprivileged children a chance for a brighter future. 
+                        2019 marked the formation of the Rirok Children’s Foundation, a not-for-profit organization dedicated to improving the lives and welfare of children. This institution, founded by Future Tech President, Bob Venero, recently completed the installation of Virtual Offices for every patient bed within the Pediatric Division of Good Samaritan Hospital. 
+                        A new standard for pediatric care at medical facilities around the world, 
+                        the Virtual Offices allow hospitalized children to communicate online with friends and family, permit parents to keep up with their work without having to leave their sick child’s side, and aid siblings who need to spend time at the hospital and still get their homework done.</p>
+                    <br>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static 'images/com.jpeg' %}" class="img-fluid" >
+                </div>
+                <hr class="my-4">
+            </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"> <i class="fa fa-facebook"></i></a>
+                <a href="#"> <i class="fa fa-twitter"></i></a>
+                <a href="#"> <i class="fa fa-google-plus"></i></a>
+                <a href="#"> <i class="fa fa-instagram"></i></a>
+                <a href="#"> <i class="fa fa-youtube"></i></a>
+                <a href="#"> <i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid padding">
+            <div class="footerer">
+            <div class="row text-center">
+               
+                <div class="col-md-4">
+                    <img src="{% static 'images/riroktech.png' %}" >
+                    <hr class="light">
+                    <p>(254) 715 625 991</p>
+                    <p>info@riroktech.com</p>
+                    <p>637 Kipchoge Street</p>
+                    <p>Eldoret, Uasingishu, Kenya</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class="footerer">Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday - Thursday: 8am - 9pm</p>
+                    <p>Friday: 8am - 6pm </p>
+                    <p>Sunday: 9am - 7pm </p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class="footerer">Service Areas</h5>
+                    <hr class="light">
+                    <p>Nairobi, Kenya</p>
+                    <p>Nakuru, Kenya</p>
+                    <p>Mombasa, Kenya</p>
+                    <p>Kampala, Uganda</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>&copyriroktech.com</h5>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+ {% endblock %}    
+
